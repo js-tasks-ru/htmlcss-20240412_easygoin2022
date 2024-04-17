@@ -1,12 +1,14 @@
 /* Стилизация кнопки */
-button{
-    width: 189px;
+.button{
     height: 48px;
-    border-radius: 10px;
+    padding: 0 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
 }
 
-button.disabled{
+.button:disabled{
     opacity: 0.5;
     cursor: not-allowed;
 }
@@ -14,25 +16,21 @@ button.disabled{
 .button_primary{
     background-color: var(--primary);
     color: var(--white);
-    border: none;
 }
 
 .button_primary:hover,
 .button_primary:focus{
     background-color: #253a9f;
-    transition: all 0.2s ease-in-out;
 }
 
 .button_secondary{
     background-color: var(--secondary);
     color: var(--white);
-    border: none;
 }
 
 .button_secondary:hover,
 .button_secondary:focus{
     background-color: #5433b8;
-    transition: all 0.2s ease-in-out;
 }
 
 .button_alternate{
@@ -44,8 +42,7 @@ button.disabled{
 
 .button_alternate:hover,
 .button_alternate:focus{
-    border: 2px solid var(--black);
-    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--black);
 }
 
 
