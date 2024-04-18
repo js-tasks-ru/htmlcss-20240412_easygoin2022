@@ -1,12 +1,21 @@
 /* Стилизация аккордеона */
-.accordion__item{
-    width: 50%; 
-    margin-bottom: 8px;
-    padding: 1.5rem;
+.accordion{
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     font-weight: 500;
+    line-height: normal;
+}
+
+.accordion__item{
+    margin-bottom: 8px;
+    padding: 2rem;
     border: 2px solid var(--black);
-    border-radius: 10px;
+    border-radius: 8px;
+}
+
+.accordion__item[open] .accordion__text{
+    margin-top: 1rem;
+    padding: 0 0 0.25rem 0;
 }
 
 .accordion__item:last-child{
