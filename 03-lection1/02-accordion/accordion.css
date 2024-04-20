@@ -1,7 +1,7 @@
 /* Стилизация аккордеона */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.accordion{
+.accordion *{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -22,7 +22,7 @@
 .accordion__item:last-child{
     margin-bottom: 0;
 }
-
+ 
 .accordion__summary{
     color: var(--black);
     cursor: pointer;
