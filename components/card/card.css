@@ -1,6 +1,18 @@
 .card{
-width: 350px;
-height: 367px;
-background: #00f;
-border-radius: 8px;
+    width: 350px;
+    height: 367px;
+    background: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card p{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 30px;
 }
