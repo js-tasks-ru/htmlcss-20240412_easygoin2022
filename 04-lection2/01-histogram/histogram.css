@@ -1,6 +1,5 @@
 .histogram{
-    width: 354px;
-    height: 185px;
+    padding: 16px 24px 24px 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,142 +8,63 @@
 }
 
 .histogram__upper{
-    margin: 0 24px;
+    margin-bottom: 39px;
     display: flex;
     flex-direction: row nowrap;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.histogram__upper *{
+.histogram__title,
+.histogram__number,
+.histogram__link{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     color: var(--black);
 }
 
-.orders p{
+.histogram__title{
     margin-bottom: 6px;
     font-size: 16px;
     line-height: 24px;
     opacity: 80%;
 }
 
-.orders h4{
+.histogram__number{
     margin: 0;
     font-size: 20px;
     line-height: 26px;
 }
 
-.link a{
+.histogram__link{
     text-decoration: none;
     color: #4263EB;
 }
 
 .histogram__lower{
-    width: 300px;
     height: 50px;
-    margin: 0 auto 24px;
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-end;
     gap: 1px;
 }
 
-.bar{
-    min-height: 5px;
+.histogram__chart{
     background-color: #4263EB;
     flex-basis: 9px;
     flex-grow: 1;
 }
 
-.bar:first-child{
+.histogram__chart_a{
     height: 100%;
 }
-.bar:nth-child(2){
-    height: 70%;
-}
-.bar:nth-child(3){
-    height: 35%;
-}
-.bar:nth-child(4){
-    height: 45%;
-}
-.bar:nth-child(5){
-    height: 66%;
-}
-.bar:nth-child(6){
-    height: 25%;
-}
-.bar:nth-child(7){
-    height: 85%;
-}
-.bar:nth-child(8){
-    height: 50%;
-}
-.bar:nth-child(9){
-    height: 100%;
-}
-.bar:nth-child(10){
-    height: 90%;
-}
-.bar:nth-child(11){
-    height: 15%;
-}
-.bar:nth-child(12){
-    height: 30%;
-}
-.bar:nth-child(13){
-    height: 70%;
-}
-.bar:nth-child(14){
-    height: 20%;
-}
-.bar:nth-child(15){
-    height: 45%;
-}
-.bar:nth-child(16){
-    height: 35%;
-}
-.bar:nth-child(17){
-    height: 75%;
-}
-.bar:nth-child(18){
-    height: 40%;
-}
-.bar:nth-child(19){
-    height: 20%;
-}
-.bar:nth-child(20){
+
+.histogram__chart_b{
     height: 60%;
 }
-.bar:nth-child(21){
-    height: 45%;
-}
-.bar:nth-child(22){
+
+.histogram__chart_c{
     height: 30%;
 }
-.bar:nth-child(23){
-    height: 20%;
-}
-.bar:nth-child(24){
-    height: 25%;
-}
-.bar:nth-child(25){
-    height: 90%;
-}
-.bar:nth-child(26){
-    height: 50%;
-}
-.bar:nth-child(27){
-    height: 30%;
-}
-.bar:nth-child(28){
-    height: 65%;
-}
-.bar:nth-child(29){
-    height: 80%;
-}
-.bar:last-child{
-    height: 100%;
-}
+
