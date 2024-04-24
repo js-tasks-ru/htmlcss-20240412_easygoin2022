@@ -1,18 +1,17 @@
 .skeleton{
-    width: 579px;
-    height: 192px;
+    padding: 32px 40px 32px 24px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
 }
 
 .skeleton__upper{
+    margin-bottom: 24px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    margin: 24px 0 24px 24px;
 }
 
-.ellipse{
+.skeleton__ellipse{
     background-color: var(--grey-2);
     width: 64px;
     height: 64px;
@@ -21,26 +20,18 @@
     margin-right: 16px;
 }
 
-.line{
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+.skeleton__line{
+    width: 515px;
     height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-top: 8px;
 }
 
-.line:first-child{
+.skeleton__line_a{
     width: 172px;
+}
+
+.skeleton__line_b{
+    width: 257px;
     margin-bottom: 8px;
 }
-
-.line:nth-child(2){
-    width: 257px;
-}
-
-.skeleton__lower{
-    margin: 24px 0 32px 24px;
-}
-
-.skeleton__lower .line{
-    width: 515px;
-    margin: 8px 0;
-}
-
