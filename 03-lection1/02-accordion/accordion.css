@@ -3,7 +3,7 @@
 .accordion__item{
     margin-bottom: 8px;
     padding: 32px 24px;
-    border: 2px solid var(--black);
+    border: 1px solid var(--black);
     border-radius: 8px;
 }
 
