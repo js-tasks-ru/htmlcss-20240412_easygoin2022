@@ -1,6 +1,4 @@
 /* Стилизация аккордеона */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 .accordion *{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
