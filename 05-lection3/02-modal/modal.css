@@ -1,13 +1,9 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     overflow: initial;
 }
 
 .modal{
+    min-height: 100vh;
     background-color: hsla(0, 0%, 0%, 0.500);
     position: fixed;
     inset: 0;
@@ -18,7 +14,7 @@ body{
 
 .modal__main{
     background-color: var(--white);
-    width: 30%;
+    max-width: 428px;
     padding: 30px 40px 33px 40px;
     border: none;
     border-radius: 8px;
