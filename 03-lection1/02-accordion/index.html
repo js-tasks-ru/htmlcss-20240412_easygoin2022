@@ -4,15 +4,28 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
+        <link rel="stylesheet" href="./normalize.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 1
+                </summary>
+                <p class="accordion__text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores eum debitis itaque.
+                </p>
+            </details>
+    
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 2
+                </summary>
+                <p class="accordion__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat facilis deleniti, laboriosam nesciunt nihil ea assumenda iste. Nemo magni expedita ad, laboriosam dignissimos provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat facilis deleniti, laboriosam nesciunt nihil ea assumenda iste. Nemo magni expedita ad, laboriosam dignissimos provident.
+                </p>
+            </details>
+        </div>
+        
     </body>
 </html>

@@ -1,1 +1,38 @@
 /* Стилизация аккордеона */
+
+.accordion__item{
+    margin-bottom: 8px;
+    padding: 32px 24px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+}
+
+.accordion__item[open] .accordion__text{
+    margin: 16px 0 0 0;
+}
+
+.accordion__item:last-child{
+    margin-bottom: 0;
+}
+
+.accordion__summary,
+.accordion__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+ 
+.accordion__summary{
+    color: var(--black);
+    cursor: pointer;
+}
+
+.accordion__text{
+    color: var(--grey-4);
+}
+
+.accordion__summary::marker{
+    content: '';
+    /* вариант предложенный в лекции 1 не сработал */
+}
