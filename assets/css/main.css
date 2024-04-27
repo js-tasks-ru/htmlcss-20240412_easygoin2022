@@ -1,14 +1,10 @@
 @import '../fonts/fonts.css';
-<<<<<<< HEAD
 @import '../../components/page/page.css';
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
-=======
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
->>>>>>> master
 
 :root {
     --white: #ffffff;
@@ -33,10 +29,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-<<<<<<< HEAD
 html,
 body{
     height: 100%;
 }
-=======
->>>>>>> master
