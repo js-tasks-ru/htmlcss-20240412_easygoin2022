@@ -1,0 +1,19 @@
+.card{
+    width: 350px;
+    height: 337px;
+    background: var(--white);
+    padding-bottom: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card__title{
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    text-align: center;
+    color: var(--black);
+}
