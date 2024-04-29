@@ -27,14 +27,14 @@
 }
 
 .skeleton__lines{
-    width: 50%;
+    flex-grow: 1;
     padding-bottom: 8px;
 }
 
 .skeleton__line_short{
-    width: 60%;
+    width: 40%;
 }
 
 .skeleton__line_long{
-    width: 100%;
+    width: 60%;
 }
