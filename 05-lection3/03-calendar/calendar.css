@@ -56,8 +56,49 @@
 
 .calendar__item_between-active{
     background-color: hsla(228, 81%, 79%, 0.200);
-    /* opacity 20% сделал с помощью hsla */
 }
+
+/* calendar__preview STYLES */
+
+.calendar_preview{
+    width: 100%;
+    max-width: 202px;
+    padding: 5px 10px;
+}
+
+
+.calendar_preview .calendar__title{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.calendar_preview .calendar__item{
+    font-size: 14px;
+}
+
+/* calendar__preview-mobile STYLES */
+
+@media screen and (min-width: 375px) and (max-width: 576px){
+    
+    .calendar_preview-mobile{
+        width: 100%;
+        max-width: 144px;
+        border: none;
+        padding: 0;
+    }
+    
+    .calendar_preview-mobile .calendar__title{
+        margin-bottom: 0px;
+        font-size: 12px;
+        font-weight: 800;
+    }
+    
+    .calendar_preview-mobile .calendar__item{
+        font-size: 8px;
+    }
+}
+
 
 
 

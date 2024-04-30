@@ -11,6 +11,11 @@
 
 .card__container{
     flex-grow: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card__title{
@@ -26,7 +31,7 @@
 
     .card{
         width: 164px;
-        height: 180px;
+        height: 190px;
         padding: 10px 0;
     }
 
@@ -48,6 +53,7 @@
 
     .card__container{
         box-shadow: 0 2px 4px 0 #2124290D;
+        padding: 10px 20px 5px 20px;
     }
 
     .card__title{
