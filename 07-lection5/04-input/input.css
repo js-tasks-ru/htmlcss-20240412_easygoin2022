@@ -36,17 +36,20 @@
     position: relative;
 }
 
+.input__icon_success,
+.input__icon_error{
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
 .input_success .wrapper .input__icon_success,
 .input_error .wrapper .input__icon_error{
+    display: inline-block;
     position: absolute;
     top: 50%;
     right: 16px;
-    transform: translateY(-40%);
-}
-
-.input_success .wrapper .input__icon_error,
-.input_error .wrapper .input__icon_success{
-    display: none;
+    transform: translateY(-50%);
 }
 
 .input_error .input__control{
