@@ -27,8 +27,13 @@
     color: var(--grey-4);
 }
 
+.input__control::-webkit-input-placeholder{
+    color: var(--grey-2);
+}
+
 .input__control:focus{
     border-color: #4263EB;
+    outline: 0;
 }
 
 .wrapper{
