@@ -6,6 +6,11 @@
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
 
+@import '../../05-lection3/03-calendar/calendar.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+@import '../../06-lection4/01-avatar/avatar.css';
+@import '../../05-lection3/01-tooltip/tooltip.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;

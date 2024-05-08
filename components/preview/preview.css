@@ -10,3 +10,14 @@
     align-items: center;
     gap: 30px;
 }
+
+@media screen and (max-width: 576px){
+
+    .preview{
+        padding: 24px 0;
+    }
+
+    .preview__cards{
+        gap: 16px;
+    }
+}

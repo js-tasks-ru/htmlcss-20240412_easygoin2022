@@ -9,3 +9,17 @@
     object-fit: contain;
     border-radius: 50%;
 }
+
+.avatar_preview{
+    width: 160px;
+    height: 160px;
+}
+
+@media screen and (max-width: 576px){
+
+    .avatar_preview{
+        width: 102px;
+        height: 102px;
+    }
+}
+

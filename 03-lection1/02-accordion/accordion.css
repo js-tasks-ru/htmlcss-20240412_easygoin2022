@@ -5,7 +5,10 @@
     padding: 32px 24px;
     border: 1px solid var(--black);
     border-radius: 8px;
+
+    position: relative;
 }
+
 
 .accordion__item[open] .accordion__text{
     margin: 16px 0 0 0;
@@ -35,4 +38,15 @@
 .accordion__summary::marker{
     content: '';
     /* вариант предложенный в лекции 1 не сработал */
+}
+
+.accordion__arrow{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 24px;
+}
+
+.accordion__item[open] .accordion__arrow{
+    transform: rotate(180deg);
 }
