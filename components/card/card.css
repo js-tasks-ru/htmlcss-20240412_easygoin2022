@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+
+    box-shadow: 0 2px 4px 0 #2124290D;
 }
 
 .card__container{
@@ -27,7 +29,7 @@
     color: var(--black);
 }
 
-@media screen and (min-width: 375px) and (max-width: 576px){
+@media screen and (max-width: 576px){
 
     .card{
         width: 164px;
@@ -35,24 +37,23 @@
         padding: 10px 0;
     }
 
-    .card:nth-child(3){
+    .card_calendar{
         order: -5;
     }
 
-    .card:nth-child(6){
+    .card_avatar{
         order: -4;
     }
 
-    .card:nth-child(5){
+    .card_histogram{
         order: -3;
     }
 
-    .card:nth-child(4){
+    .card_modal{
         order: -2;
     }
 
     .card__container{
-        box-shadow: 0 2px 4px 0 #2124290D;
         padding: 10px 20px 5px 20px;
     }
 

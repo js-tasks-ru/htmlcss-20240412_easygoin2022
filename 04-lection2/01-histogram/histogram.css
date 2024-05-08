@@ -89,38 +89,38 @@
     gap: 2px;
 }
 
-/* histogram_preview-mobile STYLES */
+/* histogram_preview mobile STYLES */
 
-@media screen and (min-width: 375px) and (max-width: 576px){
-    .histogram_preview-mobile{
+@media screen and (max-width: 576px){
+    .histogram_preview{
         max-width: 145px;
         padding: 0 10px 10px 10px;
     }
 
-    .histogram_preview-mobile .histogram__upper{
+    .histogram_preview .histogram__upper{
         margin-bottom: 5px;
     }
 
-    .histogram_preview-mobile .histogram__title,
-    .histogram_preview-mobile .histogram__number{
+    .histogram_preview .histogram__title,
+    .histogram_preview .histogram__number{
         line-height: 14px;
     }
 
-    .histogram_preview-mobile .histogram__title{
+    .histogram_preview .histogram__title{
         margin: 0;
         font-size: 8px;
         
     }
 
-    .histogram_preview-mobile .histogram__number{
+    .histogram_preview .histogram__number{
         font-size: 10px;
     }
 
-    .histogram_preview-mobile .histogram__link{
+    .histogram_preview .histogram__link{
         font-size: 8px;
     }
 
-    .histogram_preview-mobile .histogram__lower{
+    .histogram_preview .histogram__lower{
         height: 20px;
         gap: 2px;
     }

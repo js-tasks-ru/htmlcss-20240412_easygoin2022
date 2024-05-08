@@ -77,24 +77,24 @@
     font-size: 14px;
 }
 
-/* calendar__preview-mobile STYLES */
+/* calendar__preview mobile STYLES */
 
-@media screen and (min-width: 375px) and (max-width: 576px){
+@media screen and (max-width: 576px){
     
-    .calendar_preview-mobile{
+    .calendar_preview{
         width: 100%;
         max-width: 144px;
         border: none;
         padding: 0;
     }
     
-    .calendar_preview-mobile .calendar__title{
+    .calendar_preview .calendar__title{
         margin-bottom: 0px;
         font-size: 12px;
         font-weight: 800;
     }
     
-    .calendar_preview-mobile .calendar__item{
+    .calendar_preview .calendar__item{
         font-size: 8px;
     }
 }

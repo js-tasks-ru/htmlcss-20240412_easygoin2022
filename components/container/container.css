@@ -3,10 +3,3 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 375px) and (max-width: 576px){
-    .container_mobile-logo{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}

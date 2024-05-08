@@ -40,6 +40,16 @@
     display: block;
 }
 
+/* tooltip_preview STYLES */
+
+.tooltip_preview{
+    margin-top: 50px;
+}
+
+.tooltip_preview .tooltip__bubble{
+    display: block;
+}
+
 
 
 
