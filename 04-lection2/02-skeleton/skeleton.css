@@ -1,0 +1,40 @@
+.skeleton{
+    padding: 32px 40px 32px 24px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__top{
+    margin-bottom: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.skeleton__ellipse{
+    background-color: var(--grey-2);
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.skeleton__line{
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-top: 8px;
+}
+
+.skeleton__lines{
+    flex-grow: 1;
+    padding-bottom: 8px;
+}
+
+.skeleton__line_short{
+    width: 40%;
+}
+
+.skeleton__line_long{
+    width: 60%;
+}
