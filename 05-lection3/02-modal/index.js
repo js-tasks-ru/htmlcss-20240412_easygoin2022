@@ -8,7 +8,10 @@
     }
 
     modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
+        modal.style.display = 'flex';  
+        // в флексе понятнее как позиционировать само окно модалки
+        modal.style.justifyContent = 'center';
+        modal.style.alignItems = 'center';
         document.body.overflow = 'hidden';
     });
 
