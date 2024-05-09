@@ -43,8 +43,7 @@
     position: relative;
 }
 
-.input__icon_success,
-.input__icon_error{
+.input__icon{
     width: 24px;
     height: 24px;
     display: none;
