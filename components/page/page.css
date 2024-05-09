@@ -1,5 +1,4 @@
 .page{
-    background-color: red;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -7,4 +6,11 @@
 
 .page__main{
     flex-grow: 1;
+}
+
+/* Стили для страницы компонента */
+
+.page_component{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
