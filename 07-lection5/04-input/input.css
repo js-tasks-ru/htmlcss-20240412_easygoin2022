@@ -1,9 +1,11 @@
+
 .input__label,
 .input__control{
     font-family: 'Inter', sans-serif;
 }
 
 .input__label{
+    display: block;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
@@ -36,7 +38,7 @@
     outline: 0;
 }
 
-.wrapper{
+.input__wrapper{
     display: inline-block;
     position: relative;
 }
@@ -48,8 +50,8 @@
     display: none;
 }
 
-.input_success .wrapper .input__icon_success,
-.input_error .wrapper .input__icon_error{
+.input_success .input__wrapper .input__icon_success,
+.input_error .input__wrapper .input__icon_error{
     display: inline-block;
     position: absolute;
     top: 50%;
