@@ -27,3 +27,20 @@
     line-height: 24px;
     text-align: center;
 }
+
+/* Стили для страницы компонента */
+
+.footer_component{
+    background: #F9FAFC;
+    padding: 56px 0;
+}
+
+.footer_component__title{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--grey-3);
+}
