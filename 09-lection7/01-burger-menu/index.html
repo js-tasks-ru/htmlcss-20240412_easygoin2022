@@ -2,11 +2,24 @@
 <!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+        <button class="burger-menu-open" id="burger-menu-open">
+            <svg class="burger-menu-open-icon">
+                <use href="../../assets/icons.svg#menu">
+            </svg>
+        </button>
+        <div class="burger-menu" id="burger-menu">
+            <button class="burger-menu-close" id="burger-menu-close">
+                <svg class="burger-menu-close-icon">
+                    <use href="../../assets/icons.svg#close">
+                </svg>
+            </button>
+        </div>
     </body>
 </html>
