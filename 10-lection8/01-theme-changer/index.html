@@ -2,14 +2,31 @@
 <!-- Пример использования theme-changer -->
 <html lang="ru">
     <head>
-        <style>
-            html[data-theme-dark] {
-                background: #000;
-            }
-        </style>
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./theme-changer.css"> 
+        <link rel="stylesheet" href="../../07-lection5/03-toggler/toggler.css">
         <script defer src="./theme-changer.js"></script>
     </head>
     <body>
-        <input type="checkbox" id="theme-changer">
+        <label class="toggler toggler_project">
+            <div class="toggler__label">
+                <svg class="toggler_project__icon">
+                    <use href="../../assets/icons.svg#light">
+                </svg>
+            </div>
+            <input type="checkbox" class="toggler__input" id="theme-changer">
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__icon">
+
+                    </div>
+                </div>
+            </div>
+            <div class="toggler__label">
+                <svg class="toggler_project__icon">
+                    <use href="../../assets/icons.svg#dark">
+                </svg>
+            </div>
+        </label>
     </body>
 </html>
