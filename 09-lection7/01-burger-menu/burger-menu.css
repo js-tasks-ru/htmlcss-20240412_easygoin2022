@@ -1,5 +1,5 @@
-.burger-menu-open,
-.burger-menu-close{
+.open-button,
+.burger-menu__close{
     border: none;
 
     display: flex;
@@ -7,18 +7,18 @@
     align-items: center;
 }
 
-.burger-menu-open{
+.open-button{
     background: transparent;
     padding: 0;
 }
 
-.burger-menu-close{
+.burger-menu__close{
     padding: 4px;
     border-radius: 50%;
 }
 
-.burger-menu-open-icon,
-.burger-menu-close-icon{
+.open-button__icon,
+.burger-menu__close-icon{
     width: 24px;
     height: 24px;
 }
@@ -41,7 +41,7 @@
 
 
 @media screen and (min-width: 576px){
-    .burger-menu-open{
+    .open-button{
         display: none;
     }
 }
