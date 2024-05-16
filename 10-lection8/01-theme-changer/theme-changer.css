@@ -1,0 +1,16 @@
+html[data-theme-dark] {
+    background: var(--black);
+}
+
+.theme-changer{
+    width: 128px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.theme-changer__icon{
+    height: 24px;
+    width: 24px;
+}
